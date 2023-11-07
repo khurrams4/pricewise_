@@ -9,6 +9,11 @@ const SpaceGrotesk = Space_Grotesk({ subsets: ['latin'] , weight:['300','400','5
 export const metadata: Metadata = {
   title: 'Price Wise',
   description: 'Track product prices effortlessly and save money on your online shopping.',
+  // icons: {
+
+  //   icon: "/assets/icon/logo.svg",
+    
+  //   },
 }
 
 export default function RootLayout({
