@@ -81,8 +81,10 @@ export async function generateEmailBody(
 }
 
 const transporter = nodemailer.createTransport({
-  host:"smtp.zoho.com",
+  host: "smtp.zoho.com",
   port: 465,
+  secure: true,
+  pool:true,  
   auth: {
     user: 'khurram.shahzad@itcurves.com',
     pass: 'p7573097',
